@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(135deg,#AEE4E1,#EBE6E2);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > nav {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+main > nav > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: white;
+    padding: 24px;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+
+main > nav > ul > li > a {
+    text-decoration: none;
+    color: #FF904D;
+    font-weight: bolder;
+}
+
+main > .alertas {
+    width: 70vw;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+main .rato, .medidor {
+    position: relative;
+}
+
+main .rato img {
+    position: absolute;
+    width: 60%;
+    left: 40px;
+}
+
+main .medidor img {
+    position: absolute;
+    width: 70%;
+    left: 30px;
+    top: 20px;
+}
+
+main > .alertas > .alerta_localidades {
+    padding: 40px 50px;
+    color: #FF904D;
+    font-size: 2em;
+}
+
+main > .alertas > .alerta_localidades > nav {
+    margin-top: 8px;
+}
+
+main > .alertas > .alerta_localidades > nav > ul > select {
+    background-color: #FF904D;
+    color: white;
+    padding: 12px 13px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+main > .alertas > .alerta_localidades > nav > ul > select:focus {
+    border-radius: 18px 18px 0px 0px;
+}
+
+main > .alertas > .alerta_localidades > nav > ul > select > option {
+    border-radius: 20px;
+}
+
+main > .alertas > .localidade {
+    display: flex;
+    padding: 10px;
+}
+
+main > .alertas > .localidade > .rato, .medidor, .local_inf {
+    flex: 1;
+}
+
+main > .alertas > .localidade > .local_inf {
+    flex: 1.5;
+}
+
+main > .alertas > .localidade > .local_inf > .inf_container {
+    line-height: 1.5;
+}
+
+main > .alertas > .localidade > .local_inf > .inf_container > h1 {
+    font-weight: 500;
+    font-size: 2.4em;
+}
+
+main > .relatorios > h1 {
+    margin: 40px auto;
+    color: #ffffff;
+    background-color: #FF904D;
+    width: fit-content;
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 2em;
+}
+
+main > .relatorios > .relatorios_grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main > .relatorios > .relatorios_grid > .relatorio_items {
+    border-radius: 0px 60px 0px 50px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+}
+
+main > .relatorios > .relatorios_grid > .item1, .item2, .item3 {
+    height: fit-content;
+}
+
+main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio {
+    margin: 25px;
+}
+
+main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
+    color: #FF904D;
+    text-align: center;
+    width: 95%;
+    margin-bottom: 12.5px;
+}
+
+main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+main > .relatorios > .relatorios_grid > .relatorio_items > figure {
+    margin: 25px;
+    border-top-right-radius: 50px;
+    overflow: hidden;
+    height: 300px;
+}
+
+main > .relatorios > .relatorios_grid > .relatorio_items > figure > img{
+    width: 100%;
+}
+
+main > .relatorios > .filtros {
+    display: block;
+    margin: 30px auto;
+    color: white;
+    background-color: #FF904D;
+    border: none;
+    padding: 10px 56px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+main > .about_us > .about {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 80px;
+}
+
+main > .about_us > .about > figure {
+    margin: 20px 0px 20px 20px;
+}
+
+main > .about_us > .about > .text_about {
+    font-size: 1.45em;
+    line-height: 1.4;
+    text-align: justify;
+    margin: 20px 80px 20px 10px;
+    font-weight: bold;
+}
+
+main > .about_us > .about > .text_about > h1 {
+    font-size: 1.6em;
+    margin-bottom: 12px;
+}
+
+main > .about_us > figure {
+    position: relative;
+    text-align: center;
+}
+
+main > .about_us > figure > img {
+    position: absolute;
+    margin-top: -13em;
+    margin-left: 11em;
+    border-top-right-radius: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer > .contact {
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 10em;
+    margin-bottom: 4em;
+    border-radius: 20px;
+    width: 80vw;
+    padding: 40px 0px;
+}
+
+footer > .contact > .email, .social_medias {
+    flex: 1;
+    flex-shrink: 1;
+}
+
+footer > .contact > .h1_contact {
+    width: 40%;
+    text-align: center;
+    color: #FF904D;
+    font-size: 1.5em;
+}
+
+footer > .contact > .h1_contact > h1 {
+    width: 50%;
+    margin: auto;
+}
+
+footer > .contact > .email > h2 {
+    margin-bottom: 20px;
+}
+
+footer > .contact > .email > p > a {
+    color: black;
+    text-decoration: none;
+}
+
+footer > .contact > .social_medias > h2 {
+    margin-bottom: 20px;
+}
+
+footer > .contact > .social_medias > ul {
+    list-style-type: none;
+}
+
+footer > .contact > .social_medias > ul > li {
+    margin-bottom: 4px;
+}
+
+footer > .contact > .social_medias > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+
