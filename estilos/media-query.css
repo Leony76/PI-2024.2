@@ -37,11 +37,11 @@
     }
 
     main > .alertas > .localidade > .rato {
-        top: 225px;
+        bottom: 190px;
     }
 
     main > .alertas > .localidade > .medidor {
-        top: 225px;
+        bottom: 190px;
         right: 10px;
     }
 
@@ -79,7 +79,7 @@
     main > .about_us > figure > img {
         width: 200px;
         right: 1em;
-        top: 10em;
+        bottom: -135px;
     }
 
     main > .about_us > .about > .text_about {
