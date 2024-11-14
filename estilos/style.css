@@ -50,7 +50,7 @@ main > .alertas {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     border-radius: 24px;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 50px;
     padding-bottom: 30px;
 }
@@ -124,7 +124,7 @@ main > .alertas > .localidade > .local_inf > .inf_container {
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > h1 {
-    color: #FF904D;
+    color: #fdae7c;
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > .local::before {
@@ -140,7 +140,7 @@ main > .alertas > .localidade > .local_inf > .inf_container > .quant::before {
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > .prag::before {
-    content: url(../svg/rato.png);
+    content: url(../svg/ratoorange.png);
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -156,14 +156,29 @@ main > .alertas > .localidade > .local_inf > .inf_container > h1 {
     font-size: 2.4em;
 }
 
+main > .alertas > .localidade > .local_inf > .inf_container > p > span {
+    color: #FF904D;
+    font-weight: bold;
+}
+
+main > .alertas > .localidade > .local_inf > .inf_container > p > .inf {
+    color: #1da0f2d9;
+}
+
 main > .relatorios > h1 {
     margin: 40px auto;
     color: #ffffff;
     background-color: #FF904D;
     width: fit-content;
-    padding: 15px 30px;
+    padding: 15px 30px 9px 30px;
     border-radius: 35px;
     font-size: 2em;
+}
+
+main > .relatorios > h1::before {
+    content: url(../svg/receipt_long_25dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg);
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 main > .relatorios > .relatorios_grid {
