@@ -31,6 +31,18 @@ main > nav > ul > li > a {
     text-decoration: none;
     color: #FF904D;
     font-weight: bolder;
+    transition: all .25s;
+}
+
+main > nav > ul > li > a:hover {
+    background-color: #FF904D;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 15px;
+}
+
+main > nav > ul > li > a:active {
+    background-color: #ae6435;
 }
 
 main > .alertas {
@@ -39,6 +51,7 @@ main > .alertas {
     background-color: rgb(255, 255, 255);
     border-radius: 24px;
     margin-top: 80px;
+    margin-bottom: 50px;
     padding-bottom: 30px;
 }
 
@@ -76,9 +89,11 @@ main > .alertas > .alerta_localidades > nav > ul > select {
     border-radius: 20px;
     border: none;
     font-weight: bold;
+    transition: all .25s;
 }
 
 main > .alertas > .alerta_localidades > nav > ul > select:focus {
+    background-color: #ae6435;
     border-radius: 18px 18px 0px 0px;
 }
 
@@ -127,6 +142,14 @@ main > .relatorios > .relatorios_grid > .relatorio_items {
     border-radius: 0px 60px 0px 50px;
     background-color: rgb(255, 255, 255);
     width: 25%;
+    transition: all .25s, transform .3s ease, box-shadow .3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+main > .relatorios > .relatorios_grid > .relatorio_items:hover {
+    transform: translateZ(50px) scale(1.05); 
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.200);
 }
 
 main > .relatorios > .relatorios_grid > .item1, .item2, .item3 {
@@ -156,20 +179,28 @@ main > .relatorios > .relatorios_grid > .relatorio_items > figure {
     height: 300px;
 }
 
-main > .relatorios > .relatorios_grid > .relatorio_items > figure > img{
+main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
     width: 100%;
 }
 
 main > .relatorios > .filtros {
     display: block;
     margin: 30px auto;
-    color: white;
-    background-color: #FF904D;
     border: none;
     padding: 10px 56px;
     border-radius: 30px;
     font-weight: bolder;
     font-size: 1.3em;
+    background-color: transparent;
+    color: #FF904D;
+    border: 2px solid #FF904D;
+    transition: all .25s;
+}
+
+main > .relatorios > .filtros:hover {
+    color: white;
+    background-color: #FF904D;
+    cursor: pointer;
 }
 
 main > .about_us > .about {
@@ -249,6 +280,25 @@ footer > .contact > .email > h2 {
 footer > .contact > .email > p > a {
     color: black;
     text-decoration: none;
+    color: #610C04;
+    transition: all .25s;
+}
+
+footer > .contact > .email > p > a:hover {
+    background-color: #610C04;
+    border-radius: 15px;
+    padding: 6px 6px 4px 8px;
+    color: white;
+}
+
+footer > .contact > .email > p > a::before {
+    content: url(../svg/email-1573-svgrepo-com.svg);
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+footer > .contact > .email > p > a:hover::before {
+    content: url(../svg/email-1573-svgrepo-com\ copy.svg);
 }
 
 footer > .contact > .social_medias > h2 {
@@ -267,6 +317,73 @@ footer > .contact > .social_medias > ul > li > a {
     color: black;
     text-decoration: none;
     font-size: 1.1em;
+    transition: all .25s;
 }
+
+footer > .contact > .social_medias > ul > li > .face {
+    color: #1877f2;
+}
+
+footer > .contact > .social_medias > ul > li > .face::before {
+    content: url(../svg/icons8-facebook-novo.svg);
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+footer > .contact > .social_medias > ul > li > .face:hover {
+    background-color: #1877f2;
+    border-radius: 15px;
+    padding: 6px 6px 4px 6px;
+    color: white;
+}
+
+footer > .contact > .social_medias > ul > li > .face:hover::before {
+    content: url(../svg/icons8-facebook-novo\ -\ Copia.svg);
+}
+
+footer > .contact > .social_medias > ul > li > .twit {
+    color: #1da1f2;
+}
+
+footer > .contact > .social_medias > ul > li > .twit::before {
+    content: url(../svg/icons8-twitter.svg);
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+footer > .contact > .social_medias > ul > li > .twit:hover {
+    background-color: #1da1f2;
+    border-radius: 15px;
+    padding: 6px 6px 4px 6px;
+    color: white;
+}
+
+footer > .contact > .social_medias > ul > li > .twit:hover::before {
+    content: url(../svg/icons8-twitter\ -\ Copia.svg);
+}
+
+footer > .contact > .social_medias > ul > li > .inst {
+    color: #ab539e;
+}
+
+footer > .contact > .social_medias > ul > li > .inst::before {
+    content: url(../svg/icons8-instagram.svg);
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+footer > .contact > .social_medias > ul > li > .inst:hover {
+    background-color: #ab539e;
+    border-radius: 15px;
+    padding: 6px 6px 4px 6px;
+    color: white;
+}
+
+footer > .contact > .social_medias > ul > li > .inst:hover::before {
+    content: url(../svg/icons8-instagram\ -\ Copia.svg);
+}
+
+
+
 
 
