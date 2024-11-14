@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/*Celular*/
+@media screen and (max-width: 767px) {
+    /* Estilos para dispositivos móveis em modo retrato */
+    main > nav {
+        width: 90vw;
+    }
+
+    main > nav > ul {
+        justify-content: space-between;
+    }
+
+    main > .alertas {
+        width: 90vw;
+        background-color: rgb(255, 255, 255);
+    }
+
+    main > .alertas > .alerta_localidades > nav > ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main > .alertas > .alerta_localidades > nav > ul > select {
+        text-align: center;
+        font-size: 0.5em;
+    }
+
+    main > .alertas > .localidade {
+        flex-direction: column;
+        position: relative;
+    }
+
+    main > .alertas > .localidade > .rato, .medidor {
+        width: 50vw;
+        position: absolute;
+    }
+
+    main > .alertas > .localidade > .rato {
+        top: 225px;
+    }
+
+    main > .alertas > .localidade > .medidor {
+        top: 225px;
+        right: 10px;
+    }
+
+    main > .alertas > .localidade > .local_inf {
+        margin-bottom: 250px;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    /* Estilos para dispositivos móveis em modo paisagem */
+}
+
+
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablets em modo retrato */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Estilos para tablets em modo paisagem */
+}
+
+
+
+/*Desktop*/
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    /* Estilos para laptops ou desktops com telas de até 1280px de largura */
+}
+
+@media screen and (min-width: 1281px) {
+    /* Estilos para desktops maiores com largura de tela maior que 1280px */
+}
+
+
+
+
+/*TVs*/
+@media screen and (min-width: 1600px) {
+    /* Estilos para telas ultra-large (ex: monitores de 2k/4k) */
+}
