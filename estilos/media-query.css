@@ -69,7 +69,7 @@
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items {
-        width: 400px;
+        width: 80vw;
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
