@@ -46,7 +46,56 @@
     }
 
     main > .alertas > .localidade > .local_inf {
-        margin-bottom: 250px;
+        margin-bottom: 225px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container {
+        width: 85%;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    main > .relatorios > .relatorios_grid {
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+        gap: 30px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items {
+        width: 80vw;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
+        width: 100%;
+    }
+
+    main > .about_us > .about {
+        width: 90vw;
+        margin: auto;
+    }
+
+    main > .about_us > figure > img {
+        width: 200px;
+        right: 1em;
+        top: 10em;
+    }
+
+    main > .about_us > .about > .text_about {
+        font-size: 1em;
+        margin: 20px 40px 20px 10px;
+    }
+
+    footer > .contact {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    footer > .contact > .h1_contact {
+        width: 100%;
+        font-size: 1.2em;
     }
 
 }
