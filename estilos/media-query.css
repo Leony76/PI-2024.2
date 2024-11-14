@@ -56,6 +56,11 @@
         border-radius: 10px;
     }
 
+    main > .alertas > .localidade > .local_inf > .inf_container > h1 {
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+
     main > .relatorios > .relatorios_grid {
         flex-direction: column;
         width: fit-content;
@@ -79,7 +84,7 @@
     main > .about_us > figure > img {
         width: 200px;
         right: 1em;
-        bottom: -150px;
+        bottom: -155px;
     }
 
     main > .about_us > .about > .text_about {
