@@ -67,13 +67,14 @@
 
     main > .relatorios > .relatorios_grid {
         flex-direction: column;
-        width: fit-content;
+        width: 80vw;
+        max-width: 450px;
         margin: auto;
         gap: 30px;
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items {
-        width: 80vw;
+        width: 100%;
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
@@ -81,14 +82,16 @@
     }
 
     main > .about_us > .about {
+        position: relative;
         width: 90vw;
         margin: auto;
+        max-width: 500px;
     }
 
     main > .about_us > figure > img {
-        width: 150px;
-        right: 1em;
-        bottom: -110px;
+        right: 20px;
+        bottom: -70px;
+        width: 30vw;
     }
 
     main > .about_us > .about > .text_about {
@@ -109,6 +112,12 @@
 
 }
 
+@media screen and (min-width:661px) and (max-width:766px) {
+    main > .about_us > .about {
+        left: -10%;
+    }
+}
+
 @media screen and (max-width: 767px) and (orientation: landscape) {
     /* Estilos para dispositivos móveis em modo paisagem */
 }
@@ -118,6 +127,125 @@
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     /* Estilos para tablets em modo retrato */
+
+    main > .alertas > .alerta_localidades > h1 {
+        text-align: center;
+    }
+
+    main > .alertas > .alerta_localidades > nav > ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        width: 100%;
+    }
+
+    main > .alertas > .alerta_localidades > nav > ul > select {
+        text-align: center;
+        font-size: 0.5em;
+        width: 100%;
+    }
+
+    main > .alertas > .localidade {
+        flex-direction: column;
+        position: relative;
+    }
+
+    main > .alertas > .localidade > .rato, .medidor {
+        width: 50vw;
+        position: absolute;
+    }
+
+    main > .alertas > .localidade > .rato {
+        bottom: 180px;
+        width: 35vw;
+    }
+
+    main > .alertas > .localidade > .medidor {
+        bottom: 180px;
+        right: -10px;
+        width: 35vw;
+    }
+
+    main > .alertas > .localidade > .local_inf {
+        margin-bottom: 225px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container {
+        width: 85%;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > h1 {
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+
+    main > .relatorios > .relatorios_grid {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
+        font-size: 1.1em;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > p {
+        font-size: 0.95em;
+        line-height: 1.3;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure {
+        overflow: hidden;
+        height: 155px;
+    }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
+        height: 100%;
+    }
+
+    main > .about_us > .about {
+        margin-left: 50px;
+    }
+
+    main > .about_us > .about > .text_about > h1 {
+        margin-bottom: 5px;
+    }
+
+    main > .about_us > .about > .text_about > p {
+        font-size: 0.75em;
+    }
+
+    main > .about_us > figure > img {
+        margin-left: 100px;
+        bottom: -40px;
+        width: 30vw;
+    }
+
+    footer > .contact {
+        background-color: rgb(255, 255, 255);
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        font-size: 1.4em;
+    }
+
+    footer > .contact > .email > h2 {
+        font-size: 1.1em;
+    }
+
+    footer > .contact > .email > p > a {
+        font-size: 0.8em;
+    }
+
+    footer > .contact > .social_medias > h2 {
+        font-size: 1.05em;
+    }
+
+    footer > .contact > .social_medias > ul > li > a {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {

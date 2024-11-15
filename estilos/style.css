@@ -4,6 +4,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 body {
@@ -259,10 +261,11 @@ main > .relatorios > .filtros:active {
 main > .about_us > .about {
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: 60vw;
+    width: 62vw;
     border-radius: 20px;
     overflow: hidden;
-    margin-left: 80px;
+    margin-left: 120px;
+    margin-top: 100px;
 }
 
 main > .about_us > .about > figure {
@@ -270,7 +273,7 @@ main > .about_us > .about > figure {
 }
 
 main > .about_us > .about > .text_about {
-    font-size: 1.45em;
+    font-size: 1.3em;
     line-height: 1.4;
     text-align: justify;
     margin: 20px 80px 20px 10px;
@@ -288,9 +291,14 @@ main > .about_us > figure {
 
 main > .about_us > figure > img {
     position: absolute;
-    margin-top: -13em;
-    margin-left: 11em;
+    bottom: -25px;
+    right: 60px;
     border-top-right-radius: 60px;
+    width: 25vw;
+}
+
+main > .about_us > .about > figure > img {
+    height: 100%;
 }
 
 footer {
