@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 
 * {
@@ -12,12 +13,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main > nav {
+header > nav {
     width: 70vw;
     margin: 0 auto;
 }
 
-main > nav > ul {
+header > nav > ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -27,21 +28,21 @@ main > nav > ul {
     margin-top: 24px;
 }
 
-main > nav > ul > li > a {
+header > nav > ul > li > a {
     text-decoration: none;
     color: #FF904D;
     font-weight: bolder;
     transition: all .25s;
 }
 
-main > nav > ul > li > a:hover {
+header > nav > ul > li > a:hover {
     background-color: #FF904D;
     color: white;
     padding: 6px 10px;
     border-radius: 15px;
 }
 
-main > nav > ul > li > a:active {
+header > nav > ul > li > a:active {
     background-color: #ae6435;
 }
 
@@ -79,7 +80,6 @@ main > .alertas > .alerta_localidades {
 }
 
 main > .alertas > .alerta_localidades > h1 {
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -162,7 +162,7 @@ main > .alertas > .localidade > .local_inf > .inf_container > p > span {
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > p > .inf {
-    color: #1da0f2d9;
+    color: #000000d9;
 }
 
 main > .relatorios > h1 {
@@ -252,6 +252,11 @@ main > .relatorios > .filtros:hover {
     cursor: pointer;
 }
 
+main > .relatorios > .filtros:active {
+    background-color: #ae6435;
+    border-color: #ae6435;
+}
+
 main > .about_us > .about {
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -270,7 +275,6 @@ main > .about_us > .about > .text_about {
     line-height: 1.4;
     text-align: justify;
     margin: 20px 80px 20px 10px;
-    font-weight: bold;
 }
 
 main > .about_us > .about > .text_about > h1 {
@@ -340,6 +344,10 @@ footer > .contact > .email > p > a:hover {
     color: white;
 }
 
+footer > .contact > .email > p > a:active {
+    color: #ff1500;
+}
+
 footer > .contact > .email > p > a::before {
     content: url(../svg/email-1573-svgrepo-com.svg);
     vertical-align: middle;
@@ -348,6 +356,10 @@ footer > .contact > .email > p > a::before {
 
 footer > .contact > .email > p > a:hover::before {
     content: url(../svg/email-1573-svgrepo-com\ copy.svg);
+}
+
+footer > .contact > .email > p > a:active::before {
+    content: url(../svg/email-1573-svgrepo-com\ copy\ 2.svg);
 }
 
 footer > .contact > .social_medias > h2 {
@@ -386,29 +398,46 @@ footer > .contact > .social_medias > ul > li > .face:hover {
     color: white;
 }
 
+footer > .contact > .social_medias > ul > li > .face:active {
+    color: #0e4184;
+}
+
 footer > .contact > .social_medias > ul > li > .face:hover::before {
     content: url(../svg/icons8-facebook-novo\ -\ Copia.svg);
 }
 
+footer > .contact > .social_medias > ul > li > .face:active::before {
+    content: url(../svg/icons8-facebook-novo\ -\ Copia\ copy.svg);
+}
+
 footer > .contact > .social_medias > ul > li > .twit {
-    color: #1da1f2;
+    color: #030303;
 }
 
 footer > .contact > .social_medias > ul > li > .twit::before {
-    content: url(../svg/icons8-twitter.svg);
+    content: url(../svg/icons8-x.svg);
     vertical-align: middle;
     margin-right: 4px;
 }
 
+
 footer > .contact > .social_medias > ul > li > .twit:hover {
-    background-color: #1da1f2;
+    background-color: black;
     border-radius: 15px;
     padding: 6px 6px 4px 6px;
     color: white;
 }
 
+footer > .contact > .social_medias > ul > li > .twit:active {
+    color: #767676;
+}
+
 footer > .contact > .social_medias > ul > li > .twit:hover::before {
-    content: url(../svg/icons8-twitter\ -\ Copia.svg);
+    content: url(../svg/icons8-xhover.svg);
+}
+
+footer > .contact > .social_medias > ul > li > .twit:active::before {
+    content: url(../svg/icons8-xhover\ copy.svg);
 }
 
 footer > .contact > .social_medias > ul > li > .inst {
@@ -428,11 +457,14 @@ footer > .contact > .social_medias > ul > li > .inst:hover {
     color: white;
 }
 
+footer > .contact > .social_medias > ul > li > .inst:active {
+    color: #582a51;
+}
+
 footer > .contact > .social_medias > ul > li > .inst:hover::before {
     content: url(../svg/icons8-instagram\ -\ Copia.svg);
 }
 
-
-
-
-
+footer > .contact > .social_medias > ul > li > .inst:active::before {
+    content: url(../svg/icons8-instagram\ -\ Copia\ copy.svg);
+}

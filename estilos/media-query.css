@@ -2,17 +2,21 @@
 /*Celular*/
 @media screen and (max-width: 767px) {
     /* Estilos para dispositivos móveis em modo retrato */
-    main > nav {
+    header > nav {
         width: 90vw;
     }
 
-    main > nav > ul {
+    header > nav > ul {
         justify-content: space-between;
     }
 
     main > .alertas {
         width: 90vw;
         background-color: rgb(255, 255, 255);
+    }
+
+    main > .alertas > .alerta_localidades > h1 {
+        text-align: center;
     }
 
     main > .alertas > .alerta_localidades > nav > ul {
@@ -69,7 +73,7 @@
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items {
-        width: 400px;
+        width: 80vw;
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
