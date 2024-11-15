@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 
 * {
@@ -468,3 +467,4 @@ footer > .contact > .social_medias > ul > li > .inst:hover::before {
 footer > .contact > .social_medias > ul > li > .inst:active::before {
     content: url(../svg/icons8-instagram\ -\ Copia\ copy.svg);
 }
+
