@@ -263,6 +263,10 @@
 
 @media screen and (min-width: 1281px) {
     /* Estilos para desktops maiores com largura de tela maior que 1280px */
+    main > .about_us > figure > img {
+        bottom: -45px;
+        right: 90px;
+    }
 }
 
 
@@ -271,4 +275,8 @@
 /*TVs*/
 @media screen and (min-width: 1600px) {
     /* Estilos para telas ultra-large (ex: monitores de 2k/4k) */
+    main > .about_us > figure > img {
+        bottom: -45px;
+        right: 90px;
+    }
 }
