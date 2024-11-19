@@ -108,7 +108,11 @@
 
     footer > .contact > .h1_contact {
         width: 100%;
-        font-size: 1.2em;
+        font-size: 0.75em;
+    }
+
+    footer > .contact > .h1_contact > h1 {
+        width: 100%;
     }
 
 }
