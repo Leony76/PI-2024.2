@@ -88,7 +88,7 @@ main > .alertas > .alerta_localidades > nav {
     margin-top: 8px;
 }
 
-main > .alertas > .alerta_localidades > nav > ul > select {
+main > .alertas > .alerta_localidades > nav > ul > select, .fil_select {
     background-color: #FF904D;
     color: white;
     padding: 12px 13px;
@@ -98,7 +98,7 @@ main > .alertas > .alerta_localidades > nav > ul > select {
     transition: all .25s;
 }
 
-main > .alertas > .alerta_localidades > nav > ul > select:focus {
+main > .alertas > .alerta_localidades > nav > ul > select:focus, .fil_select:focus {
     background-color: #ae6435;
     border-radius: 18px 18px 0px 0px;
 }
@@ -112,6 +112,14 @@ main > .alertas > .localidade {
     padding: 10px;
 }
 
+main > .alertas > .loc_pesquisa > figure {
+    position: relative;
+}
+
+main > .alertas > .loc_pesquisa > .loc_inf_pesc, figure {
+    flex: 0.75;
+}
+
 main > .alertas > .localidade > .rato, .medidor, .local_inf {
     flex: 1;
 }
@@ -122,6 +130,24 @@ main > .alertas > .localidade > .local_inf {
 
 main > .alertas > .localidade > .local_inf > .inf_container {
     line-height: 1.7;
+}
+
+main > .alertas > .localidade > .local_inf > .inf_pesquisa {
+    margin-left: 40px;
+}
+
+main > .alertas > .localidade > .local_inf > .inf_pesquisa > h2, .control_h2 {
+    color: #fdae7c;
+    font-size: 2em;
+}
+
+main > .control > .control_h2 {
+    font-size: 1.6em;
+}
+
+main > .alertas > .localidade > .loc_inf_pesc > .inf_pesquisa > .f5 {
+    margin-top: 30px;
+    margin-left: 0;
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > h1 {
@@ -150,6 +176,52 @@ main > .alertas > .localidade > .local_inf > .inf_container > .hora::before {
     content: url(../svg/schedule_25dp_000000_FILL0_wght400_GRAD0_opsz24.svg);
     vertical-align: middle;
     margin-right: 5px;
+}
+
+main > .alertas > .localidade > .local_inf > .inf_container > button, .inp, .but-on, .but {
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 1.3em;
+    background-color: transparent;
+    color: #FF904D;
+    border: 2px solid #FF904D;
+    transition: all .25s;
+}
+
+main > .alertas > .localidade > .local_inf > .inf_container > button:hover, .inp:hover, .but-on:hover, .but:hover {
+    color: white;
+    background-color: #FF904D;
+    cursor: pointer;
+}
+
+main > .alertas > .localidade > .local_inf > .inf_container > button:active, .inp:active, .but-on:active, .but:active {
+    background-color: #ae6435;
+    border-color: #ae6435;
+}
+
+main > .control {
+    padding: 30px 50px;
+}
+
+main > .control > h2 {
+    margin-bottom: 20px;
+}
+
+main > .control > .control-one > .control_butt_cont {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+main > .control > .control-one > .control_butt_cont > .butt_cont_it {
+    margin: 0;
+}
+
+main > .control > .control-one > .filters > nav > ul > select {
+    margin-right: 3px;
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > h1 {
@@ -272,7 +344,7 @@ main > .about_us > .about > figure {
     margin: 20px 0px 20px 20px;
 }
 
-main > .about_us > .about > .text_about {
+main > .about_us > .about > .text_about, .paragr {
     font-size: 1.3em;
     line-height: 1.4;
     text-align: justify;
@@ -281,7 +353,13 @@ main > .about_us > .about > .text_about {
 
 main > .about_us > .about > .text_about > h1 {
     font-size: 1.6em;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+main > .about_us > .about > .text_about > p {
+    padding: 10px;
+    text-indent: 1em;
 }
 
 main > .about_us > figure {
@@ -299,6 +377,43 @@ main > .about_us > figure > img {
 
 main > .about_us > .about > figure > img {
     height: 100%;
+    width: 40px;
+}
+
+main > .project {
+    margin-top: 150px;
+}
+
+main > .project > h2 {
+    padding: 20px 30px;font-size: 2em;
+}
+
+main > .project > .circuit > .arduino > figure {
+    display: flex;
+    justify-content: center;
+}
+
+main > .project > .circuit > .arduino > figure > img {
+    width: 90%;
+}
+
+main > .project > .circuit > .paragr {
+    padding: 20px 30px;
+    margin: 0 auto;
+    text-indent: 1em;
+}
+
+main > .project > .circuit > .but {
+    margin: 0 auto;
+}
+
+main > .project > .circuit > .but > a {
+    text-decoration: none;
+    color: #FF904D;
+}
+
+main > .project > .circuit > .but > a:hover {
+    color: white;
 }
 
 footer {
@@ -309,7 +424,7 @@ footer {
 footer > .contact {
     display: flex;
     background-color: #ffffff;
-    margin-top: 10em;
+    margin-top: 5em;
     margin-bottom: 4em;
     border-radius: 20px;
     width: 80vw;
