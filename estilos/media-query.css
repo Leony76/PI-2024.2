@@ -17,7 +17,7 @@
 
     main > .alertas > .alerta_localidades > h1 {
         text-align: center;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     main > .alertas > .alerta_localidades > nav > ul {
@@ -35,11 +35,6 @@
         margin: 20px auto;
     } 
 
-   /* main > .alertas > .loc_pesquisa {
-        display: flex;
-        flex-direction: column;
-    }*/
-
     main > .alertas > .loc_pesquisa > .loading {
         position: relative;
         top: -40px;
@@ -52,6 +47,10 @@
 
     main > .alertas_pesquisa > .loc_pesquisa > .pos:nth-child(2) {
         order: 1;
+    }
+
+    main > .alertas_pesquisa > .loc_pesquisa > .local_inf > .inf_pesquisa > h2 {
+        font-size: 1.5em;
     }
 
     main > .control > .control-one > .filters > nav > ul {
@@ -90,6 +89,10 @@
         line-height: 1;
         margin-bottom: 30px;
         font-size: 0.9em;
+    }
+
+    main > .alertas > .alerta_localidades > h1 {
+        font-size: 0.8em;
     }
 
     main > .alertas_pesquisa {
@@ -231,22 +234,16 @@
 
 }
 
-/*@media screen and (min-width:661px) and (max-width:766px) {
-    main > .about_us > .about {
-        left: -10%;
-    }
-}*/
-
 @media screen and (max-width: 767px) and (orientation: landscape) {
     /* Estilos para dispositivos móveis em modo paisagem */
 }
 
 
 
+
+
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Estilos para tablets em modo retrato */
-
     main > .alertas > .alerta_localidades > h1 {
         text-align: center;
         font-size: 1.1em;
@@ -302,6 +299,38 @@
         margin-bottom: 15px;
     }
 
+    main > .alertas > .localidade > .local_inf > .inf_container > .f5 {
+        margin: 20px auto;
+    } 
+
+    main > .alertas > .loc_pesquisa > .loading {
+        position: relative;
+        top: -40px;
+        left: -10px;
+    }
+
+    main > .alertas_pesquisa > .loc_pesquisa > .pos:nth-child(1) {
+        order: 2;
+    }
+
+    main > .alertas_pesquisa > .loc_pesquisa > .pos:nth-child(2) {
+        order: 1;
+    }
+
+    main > .alertas_pesquisa {
+        height: 750px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul {
+        gap: 6px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select {
+        
+    }
+
     main > .relatorios > .relatorios_grid {
         max-width: 900px;
         margin: 0 auto;
@@ -343,8 +372,16 @@
         width: 30vw;
     }
 
+    main > .project > .circuit > .but {
+        font-size: 1.2em;
+        width: 60%;
+        padding: 15px 0px;
+    }
+
+
     footer > .contact {
         background-color: rgb(255, 255, 255);
+        width: 90vw;
     }
 
     footer > .contact > .h1_contact > h1 {
