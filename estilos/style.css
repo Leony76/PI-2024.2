@@ -113,16 +113,11 @@ main > .alertas > .localidade {
 }
 
 main > .alertas > .loc_pesquisa > .loading {
+    display: flex;
     position: relative;
-    height: 200px;
-}
-
-main > .alertas > .loc_pesquisa > figure > img {
-    position: absolute;
-}
-
-main > .alertas > .loc_pesquisa > .loc_inf_pesc, figure {
-    flex: 0.75;
+    justify-content: center;
+    right: 150px;
+    bottom: 40px;
 }
 
 main > .alertas > .localidade > .rato, .medidor, .local_inf {

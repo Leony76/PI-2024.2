@@ -35,13 +35,46 @@
         margin: 0 auto;
     } 
 
+   /* main > .alertas > .loc_pesquisa {
+        display: flex;
+        flex-direction: column;
+    }*/
+
     main > .alertas > .loc_pesquisa > .loading {
-        text-align: center;
-        width: 50%;
+        position: relative;
+        top: -200px;
+        left: -10px;
     }
 
-    main > .alertas > .loc_pesquisa > .loading > img {
-        top: -210px;
+    main > .control > .control-one > .filters > nav > ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    main > .control > .control-one > .control_butt_cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main > .control > .control-one > .control_butt_cont > .inp {
+        width: 56%;
+        margin: 10px auto;
+    }
+
+    main > .control > .control-one > .control_butt_cont > .butt_cont_it > .but-on {
+        width: 56%;
+        margin: 10px auto;
+        font-size: 1.2em;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select > option {
+        text-align: center;
     }
 
     main > .alertas > .alerta_localidades > h1, .inf_pesquisa > h2 {
@@ -51,7 +84,7 @@
     }
 
     main > .alertas_pesquisa {
-        height: 800px;
+        height: 900px;
     }
 
     main > .alertas > .localidade {
@@ -113,14 +146,40 @@
     }
 
     main > .about_us > figure > img {
-        right: 20px;
-        bottom: -70px;
+        right: 10px;
+        bottom: -100px;
         width: 30vw;
     }
 
     main > .about_us > .about > .text_about {
-        font-size: 1em;
-        margin: 20px 40px 20px 10px;
+        font-size: 1.1em;
+        margin: 20px 40px 40px 10px;
+    }
+
+    main > .about_us > .about > figure > img {
+        width: 20px;
+    }
+
+    main > .project {
+        background-color: #F4F5F6;
+    }
+
+    main > .project > h2 {
+        text-align: center;
+    }
+
+    main > .project > .circuit > .paragr > p > span {
+        font-weight: bold;
+    }
+
+    main > .project > .circuit > .but {
+        font-size: 1.2em;
+        width: 60%;
+        padding: 15px 0px;
+    }
+
+    footer {
+        margin-top: -40px;
     }
 
     footer > .contact {
@@ -131,7 +190,7 @@
 
     footer > .contact > .h1_contact {
         width: 100%;
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     footer > .contact > .h1_contact > h1 {
