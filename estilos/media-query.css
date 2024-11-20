@@ -31,6 +31,29 @@
         font-size: 0.5em;
     }
 
+    main > .alertas > .localidade > .local_inf > .inf_container > .f5 {
+        margin: 0 auto;
+    } 
+
+    main > .alertas > .loc_pesquisa > .loading {
+        text-align: center;
+        width: 50%;
+    }
+
+    main > .alertas > .loc_pesquisa > .loading > img {
+        top: -210px;
+    }
+
+    main > .alertas > .alerta_localidades > h1, .inf_pesquisa > h2 {
+        line-height: 1;
+        margin-bottom: 30px;
+        font-size: 0.9em;
+    }
+
+    main > .alertas_pesquisa {
+        height: 800px;
+    }
+
     main > .alertas > .localidade {
         flex-direction: column;
         position: relative;

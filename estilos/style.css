@@ -112,8 +112,13 @@ main > .alertas > .localidade {
     padding: 10px;
 }
 
-main > .alertas > .loc_pesquisa > figure {
+main > .alertas > .loc_pesquisa > .loading {
     position: relative;
+    height: 200px;
+}
+
+main > .alertas > .loc_pesquisa > figure > img {
+    position: absolute;
 }
 
 main > .alertas > .loc_pesquisa > .loc_inf_pesc, figure {
@@ -405,14 +410,16 @@ main > .project > .circuit > .paragr {
 
 main > .project > .circuit > .but {
     margin: 0 auto;
+    width: 30%;
+    text-align: center;
 }
 
-main > .project > .circuit > .but > a {
+main > .project > .circuit > a {
     text-decoration: none;
     color: #FF904D;
 }
 
-main > .project > .circuit > .but > a:hover {
+main > .project > .circuit > a:hover {
     color: white;
 }
 
