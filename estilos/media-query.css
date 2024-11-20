@@ -84,7 +84,7 @@
     }
 
     main > .alertas_pesquisa {
-        height: 900px;
+        height: 850px;
     }
 
     main > .alertas > .localidade {
@@ -147,13 +147,13 @@
 
     main > .about_us > figure > img {
         right: 10px;
-        bottom: -100px;
+        bottom: -80px;
         width: 30vw;
     }
 
     main > .about_us > .about > .text_about {
         font-size: 1.1em;
-        margin: 20px 40px 40px 10px;
+        margin: 20px 40px 80px 10px;
     }
 
     main > .about_us > .about > figure > img {
