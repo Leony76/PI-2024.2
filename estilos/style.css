@@ -112,12 +112,20 @@ main > .alertas > .localidade {
     padding: 10px;
 }
 
+main > .alertas > .loc_pesquisa {
+    display: flex;
+}
+
 main > .alertas > .loc_pesquisa > .loading {
     display: flex;
     position: relative;
     justify-content: center;
-    right: 150px;
     bottom: 40px;
+    right: 40px;
+}
+
+main > .alertas > .loc_pesquisa > .loading > img {
+    width: 23vw;
 }
 
 main > .alertas > .localidade > .rato, .medidor, .local_inf {
@@ -407,6 +415,19 @@ main > .project > .circuit > .but {
     margin: 0 auto;
     width: 30%;
     text-align: center;
+    border-radius: 40px;
+}
+
+main > .project > .circuit > .but::before {
+    content: url(../svg/icons8-external-link\ \(1\).svg);
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+main > .project > .circuit > .but:hover::before {
+    content: url(../svg/icons8-external-link\ \(1\)\ copy.svg);
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 main > .project > .circuit > a {

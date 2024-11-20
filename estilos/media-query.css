@@ -32,7 +32,7 @@
     }
 
     main > .alertas > .localidade > .local_inf > .inf_container > .f5 {
-        margin: 0 auto;
+        margin: 20px auto;
     } 
 
    /* main > .alertas > .loc_pesquisa {
@@ -42,8 +42,16 @@
 
     main > .alertas > .loc_pesquisa > .loading {
         position: relative;
-        top: -200px;
+        top: -40px;
         left: -10px;
+    }
+
+    main > .alertas_pesquisa > .loc_pesquisa > .pos:nth-child(1) {
+        order: 2;
+    }
+
+    main > .alertas_pesquisa > .loc_pesquisa > .pos:nth-child(2) {
+        order: 1;
     }
 
     main > .control > .control-one > .filters > nav > ul {
@@ -65,12 +73,13 @@
     main > .control > .control-one > .control_butt_cont > .inp {
         width: 56%;
         margin: 10px auto;
+        padding: 7px 0px;
     }
 
     main > .control > .control-one > .control_butt_cont > .butt_cont_it > .but-on {
         width: 56%;
         margin: 10px auto;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     main > .control > .control-one > .filters > nav > ul > select > option {
@@ -84,7 +93,7 @@
     }
 
     main > .alertas_pesquisa {
-        height: 850px;
+        height: 770px;
     }
 
     main > .alertas > .localidade {
@@ -143,29 +152,52 @@
         width: 90vw;
         margin: auto;
         max-width: 500px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    main > .about_us > figure {
+        background-color: white;
+        position: static;
+        width: 90vw;
+        margin: auto;
+        max-width: 500px;
+        padding-bottom: 50px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 
     main > .about_us > figure > img {
-        right: 10px;
-        bottom: -80px;
-        width: 30vw;
+        position: static;
+        width: 80%;
+        border-radius: 30px;
     }
 
     main > .about_us > .about > .text_about {
         font-size: 1.1em;
-        margin: 20px 40px 80px 10px;
+        margin: 20px 40px 30px 10px;
+    }
+
+    main > .about_us > .about > .text_about > h1 {
+        text-align: center;
     }
 
     main > .about_us > .about > figure > img {
-        width: 20px;
+        display: none;
     }
 
     main > .project {
         background-color: #F4F5F6;
+        margin-top: 90px;
     }
 
     main > .project > h2 {
         text-align: center;
+    }
+
+    main > .project > .circuit > .paragr > p {
+        font-size: 1em;
+        padding: 0px 20px;
     }
 
     main > .project > .circuit > .paragr > p > span {
@@ -199,11 +231,11 @@
 
 }
 
-@media screen and (min-width:661px) and (max-width:766px) {
+/*@media screen and (min-width:661px) and (max-width:766px) {
     main > .about_us > .about {
         left: -10%;
     }
-}
+}*/
 
 @media screen and (max-width: 767px) and (orientation: landscape) {
     /* Estilos para dispositivos móveis em modo paisagem */
