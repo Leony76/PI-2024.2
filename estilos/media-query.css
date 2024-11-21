@@ -235,25 +235,25 @@
     footer > .contact > .social_medias > ul > li > .face::before {
         content: url(../svg/faceportatil.svg);
         vertical-align: middle;
-        margin-right: 15px;
+        margin-right: 20px;
     }
 
     footer > .contact > .social_medias > ul > li > .twit::before {
         content: url(../svg/xportatil.svg);
         vertical-align: middle;
-        margin-right: 15px;
+        margin-right: 20px;
     }
 
     footer > .contact > .social_medias > ul > li > .inst::before {
         content: url(../svg/instaportatil.svg);
         vertical-align: middle;
-        margin-right: 15px;
+        margin-right: 20px;
     }
 
     footer > .contact > .email > p > a::before {
         content: url(../svg/emailportatil.svg);
         vertical-align: middle;
-        margin-right: 20px;
+        margin-right: 22px;
         position: relative;
         bottom: -4px;
     }
@@ -273,7 +273,7 @@
     footer > .contact > .email > p > a:hover::before {
         content: url(../svg/emailportatilhover.svg);
         vertical-align: middle;
-        margin-right: 20px;
+        margin-right: 22px;
     }
 
     footer > .contact > .email > p > a:active::before {
@@ -283,19 +283,19 @@
     footer > .contact > .social_medias > ul > li > .face:hover::before {
         content: url(../svg/faceportatilhover.svg);
         vertical-align: middle;
-        margin-right: 15px;
+        margin-right: 20px;
     } 
 
     footer > .contact > .social_medias > ul > li > .twit:hover::before {
         content: url(../svg/xportatilhover.svg);
         vertical-align: middle;
-        margin-right: 15px;
+        margin-right: 20px;
     }
 
     footer > .contact > .social_medias > ul > li > .inst:hover::before {
         content: url(../svg/instaportatilhover.svg);
         vertical-align: middle;
-        margin-right: 17px;
+        margin-right: 20px;
     }
 
     footer > .contact > .social_medias > ul > li > .face:active::before {
