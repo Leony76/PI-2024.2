@@ -9,7 +9,10 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <img src="svg/menu.svg" alt="">
+        </div>
+        <nav id="menu">
             <ul>
                 <li><a href="#ialertas">Alertas</a></li>
                 <li><a href="#alert">Pesquisas</a></li>
@@ -241,6 +244,15 @@
         function funcao1(){
             alert("Prontinho, nossa rede de sensores integrados irão monitorar as condições desejadas e você poderá verificar os resultados emitindo um relatório detalhado a qualquer momento e de qualquer lugar!");
         }
+
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('active'); 
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block'; 
+        });
+        
     </script>
 </body>
 </html>
