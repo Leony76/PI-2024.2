@@ -78,7 +78,7 @@
     main > .control > .control-one > .control_butt_cont > .butt_cont_it > .but-on {
         width: 56%;
         margin: 10px auto;
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     main > .control > .control-one > .filters > nav > ul > select > option {
@@ -165,14 +165,14 @@
         width: 90vw;
         margin: auto;
         max-width: 500px;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
 
     main > .about_us > figure > img {
         position: static;
-        width: 80%;
+        width: 90%;
         border-radius: 30px;
     }
 
@@ -325,10 +325,6 @@
         gap: 6px;
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    main > .control > .control-one > .filters > nav > ul > select {
-        
     }
 
     main > .relatorios > .relatorios_grid {
@@ -486,6 +482,168 @@
         bottom: -4vw;
         right: 7vw;
     }
+
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure {
+        height: 350px;
+    }
+
+    main > .about_us > .about > .text_about > h1 {
+        font-size: 2em;
+    }
+
+    main > .about_us > .about > .text_about > p {
+        font-size: 1.2em;
+    }
+
+    /*Sofrimento apartit daqui*/
+
+    main > .control > .control-one > .filters > nav > ul {
+        margin: 25px 0px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select {
+        font-size: 1.5em;
+        border-radius: 60px;
+        text-indent: 10px;
+        padding: 13px;
+        margin-right: 20px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select:focus, #icidade:focus, #ibairro:focus, #irua:focus {
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    footer > .contact > .h1_contact {
+        font-size: 1.8em;
+        position: relative;
+        bottom: 0px;
+    }
+
+    main .rato img {
+        position: relative;
+        top: 150px;
+    }
+
+    main .medidor img {
+        position: relative;
+        top: 200px;
+    }
+
+    main > .control {
+        padding: 50px;
+    }
+
+    main > .control > .control_h2 {
+        font-size: 2.5em;
+    }
+
+    main > .project {
+        padding: 25px;
+        margin-top: 300px;
+    }
+
+    main > .project > h2 {
+        font-size: 2.5em;
+    }
+
+    main > .project > .circuit > .paragr {
+        font-size: 1.8em;
+        margin: 50px 0px;
+    }
+
+    main > .project > .circuit > .but {
+        border-radius: 200px;
+        width: 40%;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa > h2 {
+        font-size: 3em;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa {
+        margin-left: 50px;
+    }
+
+    main > .alertas > .loc_pesquisa > .loading {
+        right: 190px;
+        bottom: 100px;
+        width: 5vw;
+    }
+
+    main > .alertas > .localidade > .loc_inf_pesc > .inf_pesquisa > .f5, main > .alertas > .localidade > .local_inf > .inf_container > .f5, main > .alertas > .localidade > .local_inf > .inf_container > button, .inp, .but-on, .but, main > .relatorios > .filtros {
+        font-size: 1.5em;
+        border-radius: 200px;
+        padding: 15px 40px;
+        border-width: 3px;
+        margin: 20px;
+    }
+
+    main > .control > .control-one > .control_butt_cont .but-on {
+        position: relative;
+        bottom: -25px;
+    }
+
+    main > .control > .control-one > .control_butt_cont > .inp {
+        margin: 50px;
+    }
+
+    main > .relatorios > .filtros {
+        margin: 100px auto;
+        padding: 15px 100px;
+    }
+
+    main > .relatorios > h1 {
+        padding: 15px 50px;
+        border-radius: 200px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .local::before, .quant::before, .prag::before, .hora::before, .relatorios > h1::before {
+        position: relative;
+        bottom: -7.5px;
+    }
+
+    main > .relatorios > h1::before {
+        margin-right: 15px;
+    }
+
+    footer > .contact > .email > p > a {
+        font-size: 1.4em;
+    }
+
+    footer > .contact > .social_medias > ul > li > a {
+        font-size: 1.4em;
+    }
+
+    footer > .contact > .email > p > a {
+        font-size: 1.1em;
+    }
+
+    footer > .contact > .email > p > a:hover, footer > .contact > .social_medias > ul > li > .face:hover, footer > .contact > .social_medias > ul > li > .twit:hover, footer > .contact > .social_medias > ul > li > .inst:hover {
+        padding: 10px;
+        border-radius: 100px;
+    }
+
+    footer > .contact > .email > p > a::before {
+        position: relative;
+        bottom: -5px;
+        margin-right: 10px;
+    }
+
+    footer > .contact > .email > p > a:hover::before {
+        position: relative;
+        bottom: -5px;
+        margin-right: 20px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face::before, .inst::before , .twit::before {
+        position: relative;
+        bottom: 0px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face:hover::before, .inst:hover::before , .twit:hover::before {
+        position: relative;
+        bottom: 0px;
+    }
 }
 
 
@@ -526,7 +684,7 @@
     }
 
     main > .alertas > .localidade > .local_inf > .inf_container > p {
-        font-size: 1.3em;
+        font-size: 1.6em;
     }
 
     main > .relatorios > .relatorios_grid {
@@ -534,12 +692,16 @@
         margin: 30px auto;
     }
 
+    main > .relatorios > .relatorios_grid > .relatorio_items > figure {
+        height: 400px;
+    }
+
     main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
-        font-size: 2em;
+        font-size: 2.2em;
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > p {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 
     main > .relatorios > .filtros {
@@ -563,7 +725,7 @@
     }
 
     main > .about_us > .about > .text_about > p {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     main > .about_us > .about > figure > img {
@@ -584,6 +746,144 @@
 
     footer > .contact > .social_medias > ul > li > a {
         font-size: 1.4em;
+    }
+
+    /*Sofrimento apartit daqui*/
+
+    main > .control > .control-one > .filters > nav > ul {
+        margin: 25px 0px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select {
+        font-size: 1.5em;
+        border-radius: 60px;
+        text-indent: 10px;
+        padding: 13px;
+        margin-right: 20px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select:focus, #icidade:focus, #ibairro:focus, #irua:focus {
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    footer > .contact > .h1_contact {
+        font-size: 2.2em;
+        position: relative;
+        bottom: 0px;
+    }
+
+    main .rato img {
+        position: relative;
+        top: 150px;
+    }
+
+    main .medidor img {
+        position: relative;
+        top: 200px;
+    }
+
+    main > .control {
+        padding: 50px;
+    }
+
+    main > .control > .control_h2 {
+        font-size: 2.5em;
+    }
+
+    main > .project {
+        padding: 25px;
+        margin-top: 300px;
+    }
+
+    main > .project > h2 {
+        font-size: 3.5em;
+    }
+
+    main > .project > .circuit > .paragr {
+        font-size: 2.2em;
+        margin: 50px 0px;
+    }
+
+    main > .project > .circuit > .but {
+        border-radius: 200px;
+        width: 35%;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa > h2 {
+        font-size: 3em;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa {
+        margin-left: 50px;
+    }
+
+    main > .alertas > .loc_pesquisa > .loading {
+        right: 200px;
+        bottom: 100px;
+        width: -5vw;
+    }
+
+    main > .alertas > .localidade > .loc_inf_pesc > .inf_pesquisa > .f5, main > .alertas > .localidade > .local_inf > .inf_container > .f5, main > .alertas > .localidade > .local_inf > .inf_container > button, .inp, .but-on, .but, main > .relatorios > .filtros {
+        font-size: 2.25em;
+        border-radius: 200px;
+        padding: 15px 40px;
+        border-width: 4px;
+        margin: 25px;
+    }
+
+    main > .control > .control-one > .control_butt_cont .but-on {
+        position: relative;
+        bottom: -25px;
+    }
+
+    main > .control > .control-one > .control_butt_cont > .inp {
+        margin: 50px;
+    }
+
+    main > .relatorios > .filtros {
+        margin: 100px auto;
+        padding: 15px 100px;
+    }
+
+    main > .relatorios > h1 {
+        padding: 15px 50px;
+        border-radius: 200px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .local::before, .quant::before, .prag::before, .hora::before, .relatorios > h1::before {
+        position: relative;
+        bottom: -7.5px;
+    }
+
+    main > .relatorios > h1::before {
+        margin-right: 15px;
+    }
+
+    footer > .contact > .email > p > a:hover, footer > .contact > .social_medias > ul > li > .face:hover, footer > .contact > .social_medias > ul > li > .twit:hover, footer > .contact > .social_medias > ul > li > .inst:hover {
+        padding: 10px;
+        border-radius: 100px;
+    }
+
+    footer > .contact > .email > p > a::before {
+        position: relative;
+        bottom: -5px;
+        margin-right: 10px;
+    }
+
+    footer > .contact > .email > p > a:hover::before {
+        position: relative;
+        bottom: -5px;
+        margin-right: 20px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face::before, .inst::before , .twit::before {
+        position: relative;
+        bottom: 0px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face:hover::before, .inst:hover::before , .twit:hover::before {
+        position: relative;
+        bottom: 0px;
     }
 }
 
@@ -627,7 +927,7 @@
     }
 
     main > .alertas > .localidade > .local_inf > .inf_container > p {
-        font-size: 1.7em;
+        font-size: 2em;
     }
 
     main > .relatorios > h1 {
@@ -642,15 +942,15 @@
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > figure {
-        height: 450px;
+        height: 550px;
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
-        font-size: 2.5em;
+        font-size: 2.7em;
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > p {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     main > .relatorios > .filtros {
@@ -680,7 +980,7 @@
     }
 
     main > .about_us > .about > .text_about > p {
-        font-size: 1.6em;
+        font-size: 1.8em;
         padding-bottom: 50px;
         padding-right: 60px;
     }
@@ -717,6 +1017,139 @@
     footer > .contact > .social_medias > ul > li > a {
         font-size: 2em;
         line-height: 1.9;
+    }
+
+    /*Sofrimento apartit daqui*/
+
+    main > .control > .control-one > .filters > nav > ul {
+        margin: 50px 0px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select {
+        font-size: 2em;
+        border-radius: 60px;
+        text-indent: 10px;
+        padding: 15px;
+        margin-right: 20px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select:focus, #icidade:focus, #ibairro:focus, #irua:focus {
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    footer > .contact > .h1_contact {
+        font-size: 2.2em;
+        position: relative;
+        bottom: -30px;
+    }
+
+    main .rato img {
+        position: relative;
+        top: 150px;
+    }
+
+    main .medidor img {
+        position: relative;
+        top: 200px;
+    }
+
+    main > .control {
+        padding: 50px;
+    }
+
+    main > .control > .control_h2 {
+        font-size: 4em;
+    }
+
+    main > .project {
+        padding: 50px;
+        margin-top: 300px;
+    }
+
+    main > .project > h2 {
+        font-size: 5em;
+    }
+
+    main > .project > .circuit > .paragr {
+        font-size: 2.75em;
+        margin: 50px 0px;
+    }
+
+    main > .project > .circuit > .but {
+        border-radius: 200px;
+        width: 35%;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa > h2 {
+        font-size: 3.5em;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa {
+        margin-left: 50px;
+    }
+
+    main > .alertas > .loc_pesquisa > .loading {
+        right: 350px;
+        bottom: 100px;
+        width: 1vw;
+    }
+
+    main > .alertas > .localidade > .loc_inf_pesc > .inf_pesquisa > .f5, main > .alertas > .localidade > .local_inf > .inf_container > .f5, main > .alertas > .localidade > .local_inf > .inf_container > button, .inp, .but-on, .but, main > .relatorios > .filtros {
+        font-size: 3em;
+        border-radius: 200px;
+        padding: 15px 40px;
+        border-width: 5px;
+        margin: 50px;
+    }
+
+    main > .control > .control-one > .control_butt_cont > .inp {
+        margin: 50px;
+    }
+
+    main > .relatorios > .filtros {
+        margin: 100px auto;
+        padding: 15px 100px;
+    }
+
+    main > .relatorios > h1 {
+        padding: 15px 50px;
+        border-radius: 200px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .local::before, .quant::before, .prag::before, .hora::before, .relatorios > h1::before {
+        position: relative;
+        bottom: -7.5px;
+    }
+
+    main > .relatorios > h1::before {
+        margin-right: 15px;
+    }
+
+    footer > .contact > .email > p > a:hover, footer > .contact > .social_medias > ul > li > .face:hover, footer > .contact > .social_medias > ul > li > .twit:hover, footer > .contact > .social_medias > ul > li > .inst:hover {
+        padding: 15px;
+        border-radius: 100px;
+    }
+
+    footer > .contact > .email > p > a::before {
+        position: relative;
+        bottom: -7.5px;
+        margin-right: 10px;
+    }
+
+    footer > .contact > .email > p > a:hover::before {
+        position: relative;
+        bottom: -7.5px;
+        margin-right: 20px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face::before, .inst::before , .twit::before {
+        position: relative;
+        bottom: -7.5px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face:hover::before, .inst:hover::before , .twit:hover::before {
+        position: relative;
+        bottom: -7.5px;
     }
 }
 
@@ -794,7 +1227,7 @@
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > figure {
-        height: 650px;
+        height: 850px;
         border-top-right-radius: 130px;
     }
 
@@ -836,7 +1269,7 @@
     }
 
     main > .about_us > .about > .text_about > p {
-        font-size: 2.5em;
+        font-size: 2.7em;
         padding-bottom: 50px;
         padding-right: 40px;
     }
@@ -873,6 +1306,139 @@
     footer > .contact > .social_medias > ul > li > a {
         font-size: 3em;
         line-height: 1.9;
+    }
+
+    /*Sofrimento apartit daqui*/
+
+    main > .control > .control-one > .filters > nav > ul {
+        margin: 50px 0px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select {
+        font-size: 3em;
+        border-radius: 60px;
+        text-indent: 20px;
+        padding: 20px;
+        margin-right: 20px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select:focus, #icidade:focus, #ibairro:focus, #irua:focus {
+        border-radius: 60px 60px 0px 0px;
+    }
+
+    footer > .contact > .h1_contact {
+        font-size: 4.2em;
+        position: relative;
+        bottom: -60px;
+    }
+
+    main .rato img {
+        position: relative;
+        top: 300px;
+    }
+
+    main .medidor img {
+        position: relative;
+        top: 400px;
+    }
+
+    main > .control {
+        padding: 100px;
+    }
+
+    main > .control > .control_h2 {
+        font-size: 5.5em;
+    }
+
+    main > .project {
+        padding: 100px;
+        margin-top: 400px;
+    }
+
+    main > .project > h2 {
+        font-size: 7em;
+    }
+
+    main > .project > .circuit > .paragr {
+        font-size: 4em;
+        margin: 100px 0px;
+    }
+
+    main > .project > .circuit > .but {
+        border-radius: 200px;
+        width: 35%;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa > h2 {
+        font-size: 5em;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa {
+        margin-left: 100px;
+    }
+
+    main > .alertas > .loc_pesquisa > .loading {
+        right: 400px;
+        bottom: 200px;
+        width: 5vw;
+    }
+
+    main > .alertas > .localidade > .loc_inf_pesc > .inf_pesquisa > .f5, main > .alertas > .localidade > .local_inf > .inf_container > .f5, main > .alertas > .localidade > .local_inf > .inf_container > button, .inp, .but-on, .but, main > .relatorios > .filtros {
+        font-size: 4em;
+        border-radius: 200px;
+        padding: 20px 50px;
+        border-width: 7px;
+        margin: 50px;
+    }
+
+    main > .control > .control-one > .control_butt_cont > .inp {
+        margin: 50px;
+    }
+
+    main > .relatorios > .filtros {
+        margin: 200px auto;
+        padding: 30px 200px;
+    }
+
+    main > .relatorios > h1 {
+        padding: 40px 100px;
+        border-radius: 200px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .local::before, .quant::before, .prag::before, .hora::before, .relatorios > h1::before {
+        position: relative;
+        bottom: -15px;
+    }
+
+    main > .relatorios > h1::before {
+        margin-right: 30px;
+    }
+
+    footer > .contact > .email > p > a:hover, footer > .contact > .social_medias > ul > li > .face:hover, footer > .contact > .social_medias > ul > li > .twit:hover, footer > .contact > .social_medias > ul > li > .inst:hover {
+        padding: 30px;
+        border-radius: 100px;
+    }
+
+    footer > .contact > .email > p > a::before {
+        position: relative;
+        bottom: -15px;
+        margin-right: 10px;
+    }
+
+    footer > .contact > .email > p > a:hover::before {
+        position: relative;
+        bottom: -15px;
+        margin-right: 20px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face::before, .inst::before , .twit::before {
+        position: relative;
+        bottom: -15px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face:hover::before, .inst:hover::before , .twit:hover::before {
+        position: relative;
+        bottom: -15px;
     }
 }
 
@@ -912,7 +1478,7 @@
         margin-left: 40px;
     }
 
-    main > .alertas > .alerta_localidades > nav > ul > select {
+    main > .alertas > .alerta_localidades > nav > ul > select, main > .control > .control-one > .filters > nav > ul > select {
         font-size: 2em;
         border-radius: 60px;
         text-indent: 30px;
@@ -950,19 +1516,21 @@
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > figure {
-        height: 850px;
+        height: 1050px;
         border-top-right-radius: 140px;
+        margin: 50px;
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
-        font-size: 4.5em;
+        font-size: 5em;
         padding: 20px;
     }
 
     main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > p {
-        font-size: 3.6em;
+        font-size: 4.3em;
         padding: 0px 20px 20px 20px;
     }
+
 
     main > .relatorios > .filtros {
         font-size: 6em;
@@ -983,7 +1551,7 @@
         margin: 0 auto;
         left: -10vw;
         border-radius: 70px;
-        padding: 20px;
+        padding: 50px;
     }
 
     main > .about_us > .about > .text_about > h1 {
@@ -1010,10 +1578,6 @@
         border-radius: 70px;
     }
 
-    footer > .contact > .h1_contact {
-        font-size: 4.2em;
-    }
-
     footer > .contact > .email > p {
         font-size: 4em;
     }
@@ -1029,6 +1593,135 @@
     footer > .contact > .social_medias > ul > li > a {
         font-size: 4em;
         line-height: 1.9;
+    }
+
+    /*Sofrimento apartit daqui*/
+
+    main > .control > .control-one > .filters > nav > ul {
+        margin: 100px 0px;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select {
+        font-size: 4em;
+    }
+
+    main > .control > .control-one > .filters > nav > ul > select:focus, #icidade:focus, #ibairro:focus, #irua:focus {
+        border-radius: 60px 60px 0px 0px;
+    }
+
+    footer > .contact > .h1_contact {
+        font-size: 4.2em;
+        position: relative;
+        bottom: -60px;
+    }
+
+    main .rato img {
+        position: relative;
+        top: 300px;
+    }
+
+    main .medidor img {
+        position: relative;
+        top: 400px;
+    }
+
+    main > .control {
+        padding: 100px;
+    }
+
+    main > .control > .control_h2 {
+        font-size: 7em;
+    }
+
+    main > .project {
+        padding: 100px;
+        margin-top: 400px;
+    }
+
+    main > .project > h2 {
+        font-size: 7em;
+    }
+
+    main > .project > .circuit > .paragr {
+        font-size: 5em;
+        margin: 100px 0px;
+    }
+
+    main > .project > .circuit > .but {
+        border-radius: 200px;
+        width: 35%;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa > h2 {
+        font-size: 7em;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_pesquisa {
+        margin-left: 100px;
+    }
+
+    main > .alertas > .loc_pesquisa > .loading {
+        right: 600px;
+        bottom: 200px;
+        width: 5vw;
+    }
+
+    main > .alertas > .localidade > .loc_inf_pesc > .inf_pesquisa > .f5, main > .alertas > .localidade > .local_inf > .inf_container > .f5, main > .alertas > .localidade > .local_inf > .inf_container > button, .inp, .but-on, .but, main > .relatorios > .filtros {
+        font-size: 6em;
+        border-radius: 200px;
+        padding: 40px 100px;
+        border-width: 10px;
+        margin: 50px;
+    }
+
+    main > .control > .control-one > .control_butt_cont > .inp {
+        margin: 50px;
+    }
+
+    main > .relatorios > .filtros {
+        margin: 200px auto;
+        padding: 40px 200px;
+    }
+
+    main > .relatorios > h1 {
+        padding: 40px 100px;
+        border-radius: 200px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .local::before, .quant::before, .prag::before, .hora::before, .relatorios > h1::before {
+        position: relative;
+        bottom: -15px;
+    }
+
+    main > .relatorios > h1::before {
+        margin-right: 30px;
+    }
+
+    footer > .contact > .email > p > a:hover, footer > .contact > .social_medias > ul > li > .face:hover, footer > .contact > .social_medias > ul > li > .twit:hover, footer > .contact > .social_medias > ul > li > .inst:hover {
+        padding: 30px;
+        border-radius: 100px;
+    }
+
+    footer > .contact > .email > p > a::before {
+        position: relative;
+        bottom: -15px;
+        margin-right: 20px;
+    }
+
+    footer > .contact > .email > p > a:hover::before {
+        position: relative;
+        bottom: -15px;
+        margin-right: 20px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face::before, .inst::before , .twit::before {
+        position: relative;
+        bottom: -15px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face:hover::before, .inst:hover::before , .twit:hover::before {
+        position: relative;
+        bottom: -15px;
     }
 }
 
