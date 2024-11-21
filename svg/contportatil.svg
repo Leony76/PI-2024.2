@@ -9,28 +9,28 @@
   
   <!-- Contas em cada barra -->
   <!-- Barra superior (barras com 5 contas, por exemplo) -->
-  <circle cx="10" cy="6" r="2" fill="#FF904D"/>
-  <circle cx="16" cy="6" r="2" fill="#FF904D"/>
-  <circle cx="22" cy="6" r="2" fill="#FF904D"/>
-  <circle cx="28" cy="6" r="2" fill="#FF904D"/>
-  <circle cx="34" cy="6" r="2" fill="#FF904D"/>
+  <circle cx="10" cy="6" r="2" fill="#F75103"/>
+  <circle cx="16" cy="6" r="2" fill="#F75103"/>
+  <circle cx="22" cy="6" r="2" fill="#F75103"/>
+  <circle cx="28" cy="6" r="2" fill="#F75103"/>
+  <circle cx="34" cy="6" r="2" fill="#F75103"/>
   
   <!-- Barra do meio (4 contas) -->
-  <circle cx="10" cy="12" r="2" fill="#FF904D"/>
-  <circle cx="16" cy="12" r="2" fill="#FF904D"/>
-  <circle cx="22" cy="12" r="2" fill="#FF904D"/>
-  <circle cx="28" cy="12" r="2" fill="#FF904D"/>
+  <circle cx="10" cy="12" r="2" fill="#F75103"/>
+  <circle cx="16" cy="12" r="2" fill="#F75103"/>
+  <circle cx="22" cy="12" r="2" fill="#F75103"/>
+  <circle cx="28" cy="12" r="2" fill="#F75103"/>
   
   <!-- Barra inferior (3 contas) -->
-  <circle cx="10" cy="18" r="2" fill="#FF904D"/>
-  <circle cx="16" cy="18" r="2" fill="#FF904D"/>
-  <circle cx="22" cy="18" r="2" fill="#FF904D"/>
+  <circle cx="10" cy="18" r="2" fill="#F75103"/>
+  <circle cx="16" cy="18" r="2" fill="#F75103"/>
+  <circle cx="22" cy="18" r="2" fill="#F75103"/>
   
   <!-- Outras barras com diferentes números de contas -->
-  <circle cx="10" cy="24" r="2" fill="#FF904D"/>
-  <circle cx="16" cy="24" r="2" fill="#FF904D"/>
+  <circle cx="10" cy="24" r="2" fill="#F75103"/>
+  <circle cx="16" cy="24" r="2" fill="#F75103"/>
   
-  <circle cx="10" cy="30" r="2" fill="#FF904D"/>
+  <circle cx="10" cy="30" r="2" fill="#F75103"/>
   
-  <circle cx="10" cy="36" r="2" fill="#FF904D"/>
+  <circle cx="10" cy="36" r="2" fill="#F75103"/>
 </svg>

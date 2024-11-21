@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: linear-gradient(135deg,#AEE4E1,#EBE6E2);
+    background-image: linear-gradient(135deg,#2BA6F1,#EBE6E2);
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -33,20 +33,20 @@ header > nav > ul {
 
 header > nav > ul > li > a {
     text-decoration: none;
-    color: #FF904D;
+    color: #F75103;
     font-weight: bolder;
     transition: all .25s;
 }
 
 header > nav > ul > li > a:hover {
-    background-color: #FF904D;
+    background-color: #F75103;
     color: white;
     padding: 6px 10px;
     border-radius: 15px;
 }
 
 header > nav > ul > li > a:active {
-    background-color: #ae6435;
+    background-color: #5d1e00;
 }
 
 main > .alertas {
@@ -78,7 +78,7 @@ main .medidor img {
 
 main > .alertas > .alerta_localidades {
     padding: 40px 50px;
-    color: #FF904D;
+    color: #F75103;
     font-size: 2em;
 }
 
@@ -91,7 +91,7 @@ main > .alertas > .alerta_localidades > nav {
 }
 
 main > .alertas > .alerta_localidades > nav > ul > select, .fil_select {
-    background-color: #FF904D;
+    background-color: #F75103;
     color: white;
     padding: 12px 13px;
     border-radius: 20px;
@@ -101,7 +101,7 @@ main > .alertas > .alerta_localidades > nav > ul > select, .fil_select {
 }
 
 main > .alertas > .alerta_localidades > nav > ul > select:focus, .fil_select:focus {
-    background-color: #ae6435;
+    background-color: #902e00;
     border-radius: 18px 18px 0px 0px;
 }
 
@@ -147,7 +147,7 @@ main > .alertas > .localidade > .local_inf > .inf_pesquisa {
 }
 
 main > .alertas > .localidade > .local_inf > .inf_pesquisa > h2, .control_h2 {
-    color: #fdae7c;
+    color: #ff8248;
     font-size: 2em;
 }
 
@@ -161,7 +161,7 @@ main > .alertas > .localidade > .loc_inf_pesc > .inf_pesquisa > .f5 {
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > h1 {
-    color: #fdae7c;
+    color: #ff8248;
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > .local::before {
@@ -204,14 +204,14 @@ main > .alertas > .localidade > .local_inf > .inf_container > button, .inp, .but
     font-weight: bolder;
     font-size: 1.3em;
     background-color: transparent;
-    color: #FF904D;
-    border: 2px solid #FF904D;
+    color: #F75103;
+    border: 2px solid #F75103;
     transition: all .25s;
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > button:hover, .inp:hover, .but-on:hover, .but:hover {
     color: white;
-    background-color: #FF904D;
+    background-color: #F75103;
     cursor: pointer;
 }
 
@@ -252,7 +252,7 @@ main > .alertas > .localidade > .local_inf > .inf_container > h1 {
 }
 
 main > .alertas > .localidade > .local_inf > .inf_container > p > span {
-    color: #FF904D;
+    color: #F75103;
     font-weight: bold;
 }
 
@@ -263,7 +263,7 @@ main > .alertas > .localidade > .local_inf > .inf_container > p > .inf {
 main > .relatorios > h1 {
     margin: 40px auto;
     color: #ffffff;
-    background-color: #FF904D;
+    background-color: #F75103;
     width: fit-content;
     padding: 15px 30px 9px 30px;
     border-radius: 35px;
@@ -306,7 +306,7 @@ main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio {
 }
 
 main > .relatorios > .relatorios_grid > .relatorio_items > .text_relatorio > h1 {
-    color: #FF904D;
+    color: #F75103;
     text-align: center;
     width: 95%;
     margin-bottom: 12.5px;
@@ -338,14 +338,14 @@ main > .relatorios > .filtros {
     font-weight: bolder;
     font-size: 1.3em;
     background-color: transparent;
-    color: #FF904D;
-    border: 2px solid #FF904D;
+    color: #F75103;
+    border: 2px solid #F75103;
     transition: all .25s;
 }
 
 main > .relatorios > .filtros:hover {
     color: white;
-    background-color: #FF904D;
+    background-color: #F75103;
     cursor: pointer;
 }
 
@@ -357,22 +357,28 @@ main > .relatorios > .filtros:active {
 main > .about_us > .about {
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: 62vw;
+    width: 82vw;
     border-radius: 20px;
     overflow: hidden;
     margin-left: 120px;
     margin-top: 100px;
+    align-items: center;
 }
 
-main > .about_us > .about > figure {
+main > .about_us > .about > .traco {
     margin: 20px 0px 20px 20px;
+    align-self: normal;
 }
 
 main > .about_us > .about > .text_about, .paragr {
     font-size: 1.3em;
     line-height: 1.4;
     text-align: justify;
-    margin: 20px 80px 20px 10px;
+    margin: 20px 40px 20px 10px;
+}
+
+main > .project > .circuit > .paragr > p > span {
+    font-weight: bold;
 }
 
 main > .about_us > .about > .text_about > h1 {
@@ -384,6 +390,18 @@ main > .about_us > .about > .text_about > h1 {
 main > .about_us > .about > .text_about > p {
     padding: 10px;
     text-indent: 1em;
+}
+
+main > .about_us > .about > .gente {
+    overflow: hidden;
+    border-radius: 40px;
+    width: 220vw;
+    height: 24vw;
+    margin-right: 60px;
+}
+
+main > .about_us > .about > .gente > img {
+    width: 100%;
 }
 
 main > .about_us > figure {
@@ -454,7 +472,7 @@ main > .project > .circuit > .but:hover::before {
 
 main > .project > .circuit > a {
     text-decoration: none;
-    color: #FF904D;
+    color: #F75103;
 }
 
 main > .project > .circuit > a:hover {
@@ -484,7 +502,7 @@ footer > .contact > .email, .social_medias {
 footer > .contact > .h1_contact {
     width: 40%;
     text-align: center;
-    color: #FF904D;
+    color: #F75103;
     font-size: 1.5em;
 }
 

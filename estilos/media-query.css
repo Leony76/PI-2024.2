@@ -179,6 +179,7 @@
     main > .about_us > .about > .text_about {
         font-size: 1.1em;
         margin: 20px 40px 30px 10px;
+        margin-right: -23vw;
     }
 
     main > .about_us > .about > .text_about > h1 {
@@ -201,10 +202,6 @@
     main > .project > .circuit > .paragr > p {
         font-size: 1em;
         padding: 0px 20px;
-    }
-
-    main > .project > .circuit > .paragr > p > span {
-        font-weight: bold;
     }
 
     main > .project > .circuit > .but {
@@ -478,6 +475,7 @@
     }
 
     main > .about_us > figure > img {
+        display: none;
         margin-left: 100px;
         bottom: -40px;
         width: 30vw;
@@ -641,11 +639,18 @@
 /*Desktop*/
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     /* Estilos para laptops ou desktops com telas de até 1280px de largura */
+    main > .about_us > figure > img {
+        display: none;
+        bottom: -4vw;
+        right: 7vw;
+        height: 20vw;
+    }
 }
 
 @media screen and (min-width: 1281px) {
     /* Estilos para desktops maiores com largura de tela maior que 1280px */
     main > .about_us > figure > img {
+        display: none;
         bottom: -4vw;
         right: 7vw;
         height: 20vw;
@@ -710,6 +715,7 @@
     }
 
     main > .about_us > figure > img {
+        display: none;
         bottom: -4vw;
         right: 7vw;
     }
@@ -941,6 +947,7 @@
     }
 
     main > .about_us > figure > img {
+        display: none;
         bottom: -4vw;
         right: 8vw;
         height: 40vh;
@@ -1191,6 +1198,7 @@
     }
 
     main > .about_us > figure > img {
+        display: none;
         bottom: -3vw;
         right: 9vw;
         height: 40vh;
@@ -1200,7 +1208,7 @@
     main > .about_us > .about {
         position: relative;
         margin: 0 auto;
-        left: -10vw;
+        left: 0vw;
         border-radius: 40px;
         padding: 15px;
     }
@@ -1331,6 +1339,11 @@
         padding: 15px 40px;
         border-width: 5px;
         margin: 50px;
+    }
+
+    main > .control > .control-one > .control_butt_cont .but-on {
+        position: relative;
+        bottom: 1px;
     }
 
     main > .control > .control-one > .control_butt_cont > .inp {
@@ -1480,6 +1493,7 @@
     }
 
     main > .about_us > figure > img {
+        display: none;
         bottom: -2vw;
         right: 10vw;
         height: 35vh;
@@ -1489,7 +1503,7 @@
     main > .about_us > .about {
         position: relative;
         margin: 0 auto;
-        left: -10vw;
+        left: 0vw;
         border-radius: 60px;
         padding: 20px;
     }
@@ -1620,6 +1634,11 @@
         padding: 20px 50px;
         border-width: 7px;
         margin: 50px;
+    }
+
+    main > .control > .control-one > .control_butt_cont .but-on {
+        position: relative;
+        bottom: 1px;
     }
 
     main > .control > .control-one > .control_butt_cont > .inp {
@@ -1771,6 +1790,7 @@
     }
 
     main > .about_us > figure > img {
+        display: none;
         bottom: -2vw;
         right: 10vw;
         height: 35vh;
@@ -1780,7 +1800,7 @@
     main > .about_us > .about {
         position: relative;
         margin: 0 auto;
-        left: -10vw;
+        left: 0vw;
         border-radius: 70px;
         padding: 50px;
     }
@@ -1903,6 +1923,11 @@
         padding: 40px 100px;
         border-width: 10px;
         margin: 50px;
+    }
+
+    main > .control > .control-one > .control_butt_cont .but-on {
+        position: relative;
+        bottom: 1px;
     }
 
     main > .control > .control-one > .control_butt_cont > .inp {

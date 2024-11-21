@@ -1,0 +1,11 @@
+Cores antigas:
+
+Laranja = #FF904D
+Laranja Claro = #FDAE7C
+Azul Bebê = #B2E4E1
+
+Cores Novas:
+
+Azul = #2BA6F1
+Vermelho = #F75103
+Vermelho Claro = #ff8248
