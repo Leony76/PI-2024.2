@@ -360,7 +360,7 @@ main > .about_us > .about {
     width: 82vw;
     border-radius: 20px;
     overflow: hidden;
-    margin-left: 120px;
+    margin: 0 auto;
     margin-top: 100px;
     align-items: center;
 }
@@ -423,7 +423,7 @@ main > .about_us > .about > figure > img {
 }
 
 main > .project {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 main > .project > h2 {

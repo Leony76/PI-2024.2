@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /*Celular*/
 @media screen and (min-width: 0px) and (max-width: 767px) {
-    /* Estilos para dispositivos móveis em modo retrato */
     header > nav {
         width: 90vw;
     }
@@ -153,7 +152,7 @@
     main > .about_us > .about {
         position: relative;
         width: 90vw;
-        margin: auto;
+        margin: 0 auto;
         max-width: 500px;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
@@ -179,7 +178,7 @@
     main > .about_us > .about > .text_about {
         font-size: 1.1em;
         margin: 20px 40px 30px 10px;
-        margin-right: -23vw;
+        margin-right: -28vw;
     }
 
     main > .about_us > .about > .text_about > h1 {
@@ -346,14 +345,6 @@
     }
 }
 
-@media screen and (max-width: 767px) and (orientation: landscape) {
-    /* Estilos para dispositivos móveis em modo paisagem */
-}
-
-
-
-
-
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     main > .alertas > .alerta_localidades > h1 {
@@ -460,10 +451,6 @@
 
     main > .relatorios > .relatorios_grid > .relatorio_items > figure > img {
         height: 100%;
-    }
-
-    main > .about_us > .about {
-        margin-left: 50px;
     }
 
     main > .about_us > .about > .text_about > h1 {
@@ -630,15 +617,8 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    /* Estilos para tablets em modo paisagem */
-}
-
-
-
 /*Desktop*/
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    /* Estilos para laptops ou desktops com telas de até 1280px de largura */
     main > .about_us > figure > img {
         display: none;
         bottom: -4vw;
@@ -648,7 +628,6 @@
 }
 
 @media screen and (min-width: 1281px) {
-    /* Estilos para desktops maiores com largura de tela maior que 1280px */
     main > .about_us > figure > img {
         display: none;
         bottom: -4vw;
@@ -660,7 +639,6 @@
 
 /*TVs*/
 @media screen and (min-width: 1600px) {
-    /* Estilos para telas ultra-large (ex: monitores de 2k/4k) */
     header > nav > ul {
         margin: 60px 0px;
         padding: 30px;
@@ -731,8 +709,6 @@
     main > .about_us > .about > .text_about > p {
         font-size: 1.2em;
     }
-
-    /*Sofrimento apartit daqui*/
 
     main > .control > .control-one > .filters > nav > ul {
         margin: 25px 0px;
@@ -883,12 +859,8 @@
     }
 }
 
-
-
-
-
+/*TVs parrudas*/
 @media screen and (min-width: 1920px) {
-    /* Estilos para Full HD e dispositivos maiores */
     header > nav > ul {
         margin: 60px 0px;
         padding: 30px;
@@ -985,8 +957,6 @@
     footer > .contact > .social_medias > ul > li > a {
         font-size: 1.4em;
     }
-
-    /*Sofrimento apartit daqui*/
 
     main > .control > .control-one > .filters > nav > ul {
         margin: 25px 0px;
@@ -1125,10 +1095,7 @@
     }
 }
 
-
-
-
-
+/*TVs parrudas++*/
 @media screen and (min-width: 2732px) {
     header > nav > ul {
         margin: 80px 0px;
@@ -1257,8 +1224,6 @@
         font-size: 2em;
         line-height: 1.9;
     }
-
-    /*Sofrimento apartit daqui*/
 
     main > .control > .control-one > .filters > nav > ul {
         margin: 50px 0px;
@@ -1396,10 +1361,6 @@
         bottom: -7.5px;
     }
 }
-
-
-
-
 
 /*TVs 4k*/
 @media screen and (min-width: 3840px) {
@@ -1553,8 +1514,6 @@
         line-height: 1.9;
     }
 
-    /*Sofrimento apartit daqui*/
-
     main > .control > .control-one > .filters > nav > ul {
         margin: 50px 0px;
     }
@@ -1692,10 +1651,7 @@
     }
 }
 
-
-
-
-
+/*TVs > 4k*/
 @media screen and (min-width: 5464px) {
     header {
         margin: 130px 0px;
@@ -1846,8 +1802,6 @@
         line-height: 1.9;
     }
 
-    /*Sofrimento apartit daqui*/
-
     main > .control > .control-one > .filters > nav > ul {
         margin: 100px 0px;
     }
@@ -1981,6 +1935,3 @@
     }
 }
 
-@media screen and (min-width: 7680px) {
-    /* Estilos para TVs 4K */
-}
