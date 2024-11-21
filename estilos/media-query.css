@@ -37,7 +37,7 @@
 
     main > .alertas > .loc_pesquisa > .loading {
         position: relative;
-        top: -40px;
+        top: -30px;
         left: -10px;
     }
 
@@ -232,6 +232,121 @@
         width: 100%;
     }
 
+    footer > .contact > .social_medias > ul > li > .face::before {
+        content: url(../svg/faceportatil.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .twit::before {
+        content: url(../svg/xportatil.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .inst::before {
+        content: url(../svg/instaportatil.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    footer > .contact > .email > p > a::before {
+        content: url(../svg/emailportatil.svg);
+        vertical-align: middle;
+        margin-right: 20px;
+        position: relative;
+        bottom: -4px;
+    }
+
+    main > .project > .circuit > .but::before {
+        content: url(../svg/externalportatil.svg);
+        vertical-align: middle;
+        margin-right: 25px;
+    }
+
+    main > .project > .circuit > .but:hover::before {
+        content: url(../svg/externalportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 25px;
+    }
+
+    footer > .contact > .email > p > a:hover::before {
+        content: url(../svg/emailportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+
+    footer > .contact > .email > p > a:active::before {
+        content: url(../svg/emailportatilactive.svg);
+    }
+
+    footer > .contact > .social_medias > ul > li > .face:hover::before {
+        content: url(../svg/faceportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    } 
+
+    footer > .contact > .social_medias > ul > li > .twit:hover::before {
+        content: url(../svg/xportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .inst:hover::before {
+        content: url(../svg/instaportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 17px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face:active::before {
+        content: url(../svg/faceportatilactive.svg);
+    }
+
+    footer > .contact > .social_medias > ul > li > .twit:active::before {
+        content: url(../svg/xportatilactive.svg);  
+    }
+
+    footer > .contact > .social_medias > ul > li > .inst:active::before {
+        content: url(../svg/instaportatilactive.svg); 
+    }
+
+    main > .relatorios > h1::before {
+        content: url(../svg/realtportatil.svg);
+        vertical-align: middle;
+        margin-right: 25px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .quant::before {
+        content: url(../svg/contportatil.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+        position: relative;
+        bottom: -2.5px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .prag::before {
+        content: url(../svg/ratosportatil.svg);
+        vertical-align: middle;
+        margin-right: 17px;
+        position: relative;
+        bottom: -2.5px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .hora::before {
+        content: url(../svg/relogportatil.svg);
+        vertical-align: middle;
+        margin-right: 17px;
+        position: relative;
+        bottom: -2.5px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .local::before {
+        content: url(../svg/localportatil.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+        position: relative;
+        bottom: -2.5px;
+    }
 }
 
 @media screen and (max-width: 767px) and (orientation: landscape) {
@@ -398,6 +513,122 @@
 
     footer > .contact > .social_medias > ul > li > a {
         font-size: 1em;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face::before {
+        content: url(../svg/faceportatil.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .twit::before {
+        content: url(../svg/xportatil.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .inst::before {
+        content: url(../svg/instaportatil.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    footer > .contact > .email > p > a::before {
+        content: url(../svg/emailportatil.svg);
+        vertical-align: middle;
+        margin-right: 20px;
+        position: relative;
+        bottom: -4px;
+    }
+
+    main > .project > .circuit > .but::before {
+        content: url(../svg/externalportatil.svg);
+        vertical-align: middle;
+        margin-right: 25px;
+    }
+
+    main > .project > .circuit > .but:hover::before {
+        content: url(../svg/externalportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 25px;
+    }
+
+    footer > .contact > .email > p > a:hover::before {
+        content: url(../svg/emailportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+
+    footer > .contact > .email > p > a:active::before {
+        content: url(../svg/emailportatilactive.svg);
+    }
+
+    footer > .contact > .social_medias > ul > li > .face:hover::before {
+        content: url(../svg/faceportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    } 
+
+    footer > .contact > .social_medias > ul > li > .twit:hover::before {
+        content: url(../svg/xportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .inst:hover::before {
+        content: url(../svg/instaportatilhover.svg);
+        vertical-align: middle;
+        margin-right: 17px;
+    }
+
+    footer > .contact > .social_medias > ul > li > .face:active::before {
+        content: url(../svg/faceportatilactive.svg);
+    }
+
+    footer > .contact > .social_medias > ul > li > .twit:active::before {
+        content: url(../svg/xportatilactive.svg);  
+    }
+
+    footer > .contact > .social_medias > ul > li > .inst:active::before {
+        content: url(../svg/instaportatilactive.svg); 
+    }
+
+    main > .relatorios > h1::before {
+        content: url(../svg/realtportatil.svg);
+        vertical-align: middle;
+        margin-right: 25px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .quant::before {
+        content: url(../svg/contportatil.svg);
+        vertical-align: middle;
+        margin-right: 12px;
+        position: relative;
+        bottom: -2.5px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .prag::before {
+        content: url(../svg/ratosportatil.svg);
+        vertical-align: middle;
+        margin-right: 13px;
+        position: relative;
+        bottom: -2.5px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .hora::before {
+        content: url(../svg/relogportatil.svg);
+        vertical-align: middle;
+        margin-right: 12px;
+        position: relative;
+        bottom: -2.5px;
+    }
+
+    main > .alertas > .localidade > .local_inf > .inf_container > .local::before {
+        content: url(../svg/localportatil.svg);
+        vertical-align: middle;
+        margin-right: 10px;
+        position: relative;
+        bottom: -2.5px;
     }
 }
 

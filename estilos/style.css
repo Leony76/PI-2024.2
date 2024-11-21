@@ -521,6 +521,8 @@ footer > .contact > .email > p > a::before {
     vertical-align: middle;
     margin-right: 5px;
     width: 1.75vw;
+    position: relative;
+    bottom: -3px;
 }
 
 footer > .contact > .email > p > a:hover::before {
@@ -529,10 +531,15 @@ footer > .contact > .email > p > a:hover::before {
     vertical-align: middle;
     margin-right: 5px;
     width: 2vw;
+    position: relative;
+    bottom: -3px;
 }
 
 footer > .contact > .email > p > a:active::before {
     content: url(../svg/email-1573-svgrepo-com\ copy\ 2.svg);
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
 }
 
 footer > .contact > .social_medias > h2 {
